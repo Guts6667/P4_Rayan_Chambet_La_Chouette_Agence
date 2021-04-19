@@ -129,7 +129,7 @@ a:hover {
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
+.d-bloc a,
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
@@ -642,7 +642,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -651,7 +650,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -725,9 +724,8 @@ h3 {
 h1 {
     color: #333333!important;
 }
-
-h4 {
-    color: #333333!important;
+h4{
+    color: white;
 }
 
 .icons {
@@ -736,7 +734,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #fccf6f!important;
 }
 
 .portfolio-thumb {
@@ -753,7 +751,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(0 0 0 / 58%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,21 +769,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #bc3d47;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #bc3d47;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #fccf6f!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -797,11 +795,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #bc3d47!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #bc3d47!important;
 }
 
 .icon-dark-slate-blue {
@@ -981,6 +979,9 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .bloc-sm,
     .bloc-md {
@@ -1040,3 +1041,53 @@ h4 {
         text-align: center;
     }
 }
+
+
+/*Optimisations*/
+
+.style_h2{
+    font-weight: bold;
+    color: black;
+}
+.sub_title_box{
+    display: inline-block;
+    width: 80%;
+}
+@media all and(max-width:1024px){
+    .sub_title_box{
+        width: 60%;
+    }
+}
+p{
+    font-size: 16px;
+}
+.style_italic{
+    font-style: italic;
+}
+.link_style{
+    text-decoration: underline;
+}
+h1{
+    font-weight: bold;
+}
+.bg_img_1{
+    background-image: url(./img/image-de-presentation.jpeg);
+}
+
+.position_lightbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.white_font{
+    color: white!important;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.icon_social :hover{
+    color: #f3b631!important;
+}
+
