@@ -1083,10 +1083,6 @@ h1{
     color: white!important;
 }
 
-.flex-row{
-    display: flex;
-    flex-direction: row;
-}
 .icon_social :hover{
     color: #f3b631!important;
 }
