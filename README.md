@@ -4,6 +4,8 @@ La Chouette Agence was my third project during my studies of Web Devlopment
 
 The goal was to improve a website containing many issues about SEO and to make it digitally accessible.
 
+Check the weabsite here 🌍: https://guts6667.github.io/P4_Rayan_Chambet_La_Chouette_Agence/
+
 I really enjoyed learning SEO and Digital Accessibility !
 I think we all have a role to play, so if internet is the future let's make it better for all ! :)
 
